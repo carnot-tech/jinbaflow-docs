@@ -8,12 +8,15 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  organizationName: 'carnot-tech',
+  projectName: 'jinbaflow-docs',
+  deploymentBranch: 'release',
   title: 'Jinbaflow',
   tagline: 'A tool that makes you a data scientist.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://carnot-tech.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
