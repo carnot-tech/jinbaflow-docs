@@ -77,11 +77,11 @@ const config = {
             label: 'Tutorial',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            href: 'https://pf2.prompt-flow.com/',
+            label: 'Back to Jinbaflow',
+            position: 'right',
+          },
         ],
       },
       footer: {
