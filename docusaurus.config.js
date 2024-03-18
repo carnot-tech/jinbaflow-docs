@@ -78,7 +78,7 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://pf2.prompt-flow.com/',
+            href: 'https://pf2.prompt-flow.com/login',
             label: 'Back to Jinbaflow',
             position: 'right',
           },
