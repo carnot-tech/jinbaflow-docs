@@ -19,7 +19,7 @@ const config = {
   url: 'https://carnot-tech.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/jinbaflow-docs/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
