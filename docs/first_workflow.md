@@ -6,12 +6,12 @@ sidebar_position: 3
 
 ## Introduction
 
-This tutorial guides you through creating a workflow to visualize population data. You'll be using a sample dataset, which you can download [here](https://drive.google.com/file/d/177ba0lKuLHl9tO8vRNqqytARwCueE_t-/view?usp=drive_link).
+This tutorial guides you through creating a workflow to visualize population data. You will be using a sample dataset that you can download [here](https://drive.google.com/file/d/177ba0lKuLHl9tO8vRNqqytARwCueE_t-/view?usp=drive_link).
 
 
 ## Load Data with the CSV Module
 
-Begin by loading your dataset using the csv module. After loading, expand the output section to explore your data.
+Begin by loading your dataset using the CSV module. After loading, expand the output section to explore your data.
 
 <center>
 <img
@@ -26,7 +26,7 @@ Begin by loading your dataset using the csv module. After loading, expand the ou
 Next, navigate to the Transform module from the sidebar. 
 You'll need to set up an input variable for this module. 
 Click on the add variable button and assign a name of your choice. 
-Link this variable to the csv module to allow data transfer. 
+Link this variable to the CSV module to allow the data to transfer. 
 Run the workflow to update the module's input.
 
 <center>
@@ -38,6 +38,8 @@ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; pict
 :::info
 
 Running your workflow before submitting a prompt is essential. It ensures that the module receives the data it needs. You can still generate code without this step, but doing so may lead to decreased performance.
+
+By running the workflow after connecting something to the variable, you ensure that the prompt sends the most up-to-date data while generating its response.
 
 :::
 
@@ -78,7 +80,7 @@ You can view the results in the Display module or the output section.
 <img
   src={require('/img/tutorial_display.png').default}
   alt="Check Results"
-  style={{ width: "auto", height: "480px" }}
+  style={{ width: "auto", height: "370px" }}
 />
 </center>
 
@@ -90,7 +92,7 @@ Lastly, it's time to visualize the cleaned data. Connect the Transform module's 
 Make the color based on the scheme Molokai.
 ```
 
-Submitting this prompt will generate a pretty pie chart.
+Submitting this prompt will generate a nice pie chart.
 
 <center>
 <img
