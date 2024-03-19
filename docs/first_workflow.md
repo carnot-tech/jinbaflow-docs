@@ -84,7 +84,7 @@ You can view the results in the Display module or the output section.
 />
 </center>
 
-## Visualize data with Visualize module
+## Visualize Data with the Chart Module
 
 Lastly, it's time to visualize the cleaned data. Connect the Transform module's output to the Chart module. Choose a chart type from the dropdown menu and detail your visualization preferences in a prompt. 
 
@@ -101,3 +101,7 @@ Submitting this prompt will generate a nice pie chart.
   style={{ width: "auto", height: "380px" }}
 />
 </center>
+
+## Final Result
+
+If you followed along, this is what your final workflow should look like.
