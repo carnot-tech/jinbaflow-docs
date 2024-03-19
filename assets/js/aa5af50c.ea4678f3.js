@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjinbaflow_docs=self.webpackChunkjinbaflow_docs||[]).push([[759],{4860:o=>{o.exports=JSON.parse('{"permalink":"/jinbaflow-docs/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
