@@ -43,6 +43,12 @@ Running your workflow before submitting a prompt is essential. It ensures that t
 
 Prepare to clean your data by drafting a prompt in the specified section. 
 Use the `$` symbol to include variables. It's beneficial to explicitly mention these variables for more efficient code generation. 
+
+```
+From $population, remove entries with empty values "".
+```
+
+
 Submit your prompt using the button located in the bottom right corner.
 
 <center>
@@ -54,6 +60,18 @@ Submit your prompt using the button located in the bottom right corner.
 </center>
 
 Review the generated code and execute the workflow to process the data. 
+The generated code will look like this.
+
+```python
+import pandas as pd
+
+df = pd.DataFrame(context.population)
+
+df_cleaned = df.dropna()
+
+return df_cleaned
+```
+
 You can view the results in the Display module or the output section.
 
 <center>
@@ -66,7 +84,13 @@ You can view the results in the Display module or the output section.
 
 ## Visualize data with Visualize module
 
-Lastly, it's time to visualize the cleaned data. Connect the Transform module's output to the Chart module. Choose a chart type from the dropdown menu and detail your visualization preferences in a prompt. Submitting this prompt will generate a pretty pie chart.
+Lastly, it's time to visualize the cleaned data. Connect the Transform module's output to the Chart module. Choose a chart type from the dropdown menu and detail your visualization preferences in a prompt. 
+
+```
+Make the color based on the scheme Molokai.
+```
+
+Submitting this prompt will generate a pretty pie chart.
 
 <center>
 <img
