@@ -11,7 +11,7 @@ This tutorial guides you through creating a workflow to visualize population dat
 
 ## Load Data with the CSV Module
 
-Begin by loading your dataset using the CSV module. After loading, expand the output section to explore your data.
+Begin by loading your dataset using the CSV module. You can add this by opening the right sidebar with the `Add Module` button and clicking on the CSV module button. After loading, expand the output section to explore your data.
 
 <center>
 <img
@@ -23,7 +23,7 @@ Begin by loading your dataset using the CSV module. After loading, expand the ou
 
 ## Data Cleaning with the Transform Module
 
-Next, navigate to the Transform module from the sidebar. 
+Next, select the Transform module from the sidebar. 
 You'll need to set up an input variable for this module. 
 Click on the add variable button and assign a name of your choice. 
 Link this variable to the CSV module to allow the data to transfer. 
@@ -101,7 +101,3 @@ Submitting this prompt will generate a nice pie chart.
   style={{ width: "auto", height: "380px" }}
 />
 </center>
-
-## Final Result
-
-If you followed along, this is what your final workflow should look like.
