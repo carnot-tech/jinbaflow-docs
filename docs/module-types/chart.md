@@ -12,8 +12,6 @@ None.
 
 ## Options
 
-You can choose between line, bar, scatter, and pie charts to display.
-
 When you send your prompt to the AI, it can perform transformations on your data or change how the chart looks.
 
-There is a JSON field that shows how you can modify the look of the chart.
+There is a Python code editor that is used to create the chart. Refer to the [Plotly library](https://plotly.com/python/plotly-express/) if you wish to see the details.

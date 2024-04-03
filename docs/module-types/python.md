@@ -1,6 +1,6 @@
-# Analyze
+# Python
 
-A Python code module that takes in a table or sequence, analyzes it based on the prompt, and outputs the result as a Pandas DataFrame.
+A Python code module that takes in any variables you wish to define and outputs the result. `return` the value you want to be displayed and outputted.
 
 ## Inputs
 
