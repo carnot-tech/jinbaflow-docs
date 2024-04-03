@@ -8,7 +8,7 @@ You can define your own variables to use in the code with `context.{var_name}` a
 
 ## Outputs
 
-`data`: `[DataFrame]` The DataFrame object you returned.
+`data`: `[Any]` The DataFrame object you returned.
 
 `stdout`: `[String]` Anything you printed during the execution.
 
