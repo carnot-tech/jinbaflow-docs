@@ -10,6 +10,7 @@ Jinbaflow is here to make data science easy for everyone! With our low-code tool
 
 - **Natural Language Processing**: Effortlessly command data transformations and analytics in English. It's data science made simple.
 - **GPT-4 Integration**: Leverage GPT-4's AI for deep data insights. Ask questions and receive answers directly from your data.
+- **Copilot Chat**: Chat with an AI with knowledge of your workflow. Ask it to analyze your modules or get help adding new ones.
 - **Customizable Visualizations**: Visualize your data with ease. Describe your vision in English, and our tool adapts, from graphs to charts.
 
 ## Target Audience
