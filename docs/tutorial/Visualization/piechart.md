@@ -44,49 +44,54 @@ style={{ maxWidth: "70%", height: "auto" }}
 </div>
 
 
-:::tip
-Ensure that your data columns are properly named and formatted for accurate visualization.
-:::
 
 ## Customizing Your Pie Chart
 Once you've created a basic pie chart, you may want to customize it to better suit your needs. Here are some ways to enhance your visualization in Jinbaflow:
-
-### Adding Titles
-You can add a title to your pie chart to give context to your data.
-
-**Example Prompt:**
-```
-Visualize the market share of different smartphone brands in a pie chart. Set the title to 'Smartphone Market Share in 2023'.
-```
 
 ### Adjusting Slice Colors
 Customize the colors of the slices to make your pie chart more visually appealing or to match your branding.
 
 **Example Prompt:**
 ```
-Visualize the market share of different smartphone brands in a pie chart. Use green for 'Apple', blue for 'Samsung', red for 'Huawei', orange for 'Xiaomi', and grey for 'Others'.
+Visualize the market share of different smartphone brands in a pie chart.
+Use green for 'Apple', blue for 'Samsung', red for 'Huawei', orange for 'Xiaomi', and grey for 'Others'.
 ```
+<div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+<img
+  src={require('/img/tutorial/adjusting_slice_colors.png').default}
+  alt="Adjusting Slice Colors"
+style={{ maxWidth: "70%", height: "auto" }}
+/>
+</div>
 
 ### Adding Labels and Percentages
 You can add labels and percentages to each slice to provide more information at a glance.
 
 **Example Prompt:**
 ```
-Visualize the market share of different smartphone brands in a pie chart. Add labels and percentages to each slice.
+Visualize the market share of different smartphone brands in a pie chart.
+Add labels and percentages to each slice.
 ```
+<div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+<img
+  src={require('/img/tutorial/adding_labels_percentages.png').default}
+  alt="Adding Labels and Percentages"
+style={{ maxWidth: "70%", height: "auto" }}
+/>
+</div>
 
 ### Exploding Slices
 You can emphasize specific slices by "exploding" them, which separates the slice slightly from the rest of the pie.
 
 **Example Prompt:**
 ```
-Visualize the market share of different smartphone brands in a pie chart. Explode the slice for 'Apple'.
+Visualize the market share of different smartphone brands in a pie chart.
+Explode the slice for 'Apple'.
 ```
-
-## Advanced Customizations
-For more advanced visualizations, you can combine multiple customizations in a single prompt.
-
-**Example Prompt:**
-```
-Visualize the market share of different smartphone brands in a pie chart. Set the title to 'Smartphone Market Share in 2023', use green for 'Apple', blue for 'Samsung', red for 'Huawei', orange for 'Xiaomi', and grey for 'Others'. Add labels and percentages to each slice, and explode the slice for 'Apple'.
-```
+<div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+<img
+  src={require('/img/tutorial/exploding_slices.png').default}
+  alt="Exploding Slices"
+style={{ maxWidth: "70%", height: "auto" }}
+/>
+</div>
